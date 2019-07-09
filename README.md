@@ -15,7 +15,7 @@ Existen 3 tablas de SQL con la siguiente información:
 
 -**2. OrderItem**: Contiene información básica de los items asociados a esa orden. La orden con id 567 contiene 3 items: el 56 , 57 y 58.
 
-| id  | order_id  | sku  | item_total  | discount  | created_at |
+| id  | order_id  | sku  | price  | discount  | created_at |
 |---|---|---|---|---|---|
 |  ... | ... | ... | ... | ...  | ...  |
 |  56 | 567 | LU1001 | 20000 | 0  | 2019-06-10 13:45:00  |

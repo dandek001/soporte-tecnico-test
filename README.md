@@ -9,7 +9,7 @@ Existen 3 tablas de mysql con la siguiente información:
 | id  | order_number  | order_total  | user_email  | user_id  | created_at |
 |---|---|---|---|---|---|
 |  ... | ... | ... | ... | ...  | ...  |
-|  567 | 19857758784 | 29000 | alvaro.burgos@luuna.mx | 5  | 2019-06-10 13:45:00  |
+|  567 | 19857758784 | 29000 | alvaro.burgos | 5  | 2019-06-10 13:45:00  |
 |  ... | ... | ... | ... | ...  | ...  |
 
 -**2. OrderItem**: Contiene información básica de los items asociados a esa orden. La orden con id 567 contiene 3 items el 56 y el 57.

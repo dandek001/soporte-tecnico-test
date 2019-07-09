@@ -29,10 +29,12 @@ Ejemplo: El item `56` estuvo en el estado `shipping_pending` en la fecha `2019-0
 
 | id  | order_id  | item_id  | is_active  | status  | created_at |
 |---|---|---|---|---|---|
+|...|...|...|...|...|...|
 |  23 | 567 | 56 | 0 | shipping_pending  | 2019-06-10 13:45:00  |
 |  24 | 567 | 57 | 1 | shipping_pending  | 2019-06-10 13:45:00  |
-|  24 | 567 | 58 | 1 | shipping_pending  | 2019-06-10 13:45:00  |
-|  25 | 567 | 56 | 1 | shipping_approved | 2019-06-10 15:45:00  |
+|  25 | 567 | 58 | 1 | shipping_pending  | 2019-06-10 13:45:00  |
+|  26 | 567 | 56 | 1 | shipping_approved | 2019-06-10 15:45:00  |
+|...|...|...|...|...|...|
 
 ### Contesta a lo siguiente:
 

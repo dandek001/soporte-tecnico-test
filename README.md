@@ -40,6 +40,6 @@ Ejemplo: El item `56` estuvo en el estado `shipping_pending` en la fecha `2019-0
 
 2. Utilizando 2 queries: Alguién quiere pasar los items que se encuentran actualmente en el estado `shipping_pending` de la  `order_number` igual a `19857758784` al status `shipping_approved`.
 
-*No sabes los valores para item_id o order_id solo que la `order_number` es igual a `19857758784`
+*IMPORTANTE: En ambos casos no sabes los valores para item_id o order_id solo que la `order_number` es igual a `19857758784`
 
 

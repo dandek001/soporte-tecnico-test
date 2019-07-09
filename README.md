@@ -24,7 +24,7 @@ Existen 3 tablas de mysql con la siguiente información:
 
 -**3. MachineItem**: Mantiene el historial y los estados actuales en los que se encuentran los items. La columna `is_active` si es 1 detona que es un estado actual o 0 si es un estado en el que estuvo en el pasado.
 
-I.e: El item `56` estuvo en el estado `shipping_pending` y en este momento se encuntra en el estado `shipping_approved`. El item 57 y 58 todavia estan en `shipping_pending`
+I.e: El item `56` estuvo en el estado `shipping_pending` y en este momento se encuntra en el estado `shipping_approved`. El item 57 y 58 todavia estan en `shipping_pending`.
 
 | id  | order_id  | item_id  | is_active  | status  | created_at |
 |---|---|---|---|---|---|

@@ -38,7 +38,7 @@ Ejemplo: El item `56` estuvo en el estado `shipping_pending` en la fecha `2019-0
 
 1. Utilizando una sola query: Alguién quiere saber cuales son los `sku` de la orden con `order_number` igual a `19857758784` que se encuentran en el `status` actual de `shipping_pending`.
 
-2. Utilizando 2 queries: Alguién quiere pasar los items que se encuentran actualmente en el estado `shipping_pending` de la order_number `order_number` igual a `19857758784` al status `shipping_approved`.
+2. Utilizando 2 queries: Alguién quiere pasar los items que se encuentran actualmente en el estado `shipping_pending` de la  `order_number` igual a `19857758784` al status `shipping_approved`.
 
 
 

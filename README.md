@@ -23,7 +23,7 @@ Existen 3 tablas de SQL con la siguiente información:
 |  58 | 567 | LU1002 | 4500 | 0  | 2019-06-10 13:45:00  |
 |  ... | ... | ... | ... | ...  | ...  |
 
--**3. MachineItem**: Mantiene el estado actual en que se ecuentra el item al igual que su historial. La columna `is_active` detona el estado actual si es igual a 1, y los estados historicos se identifican con el valor 0.
+-**3. MachineItem**: Mantiene el estado actual en que se ecuentra el item al igual que su historial. La columna `is_active` detona el estado actual si es igual a 1, y los estados historicos se identifican con el valor igual a 0.
 
 Ejemplo: El item `56` estuvo en el estado `shipping_pending` en la fecha `2019-06-10 13:45:00`. Posteriormente en la fecha `2019-06-10 15:45:00` cambió al estado `shipping_approved`, que es en estos momentos el estado actual en el que se ecuentra el item. El item `57` y `58` estan en `shipping_pending` y nunca estuvieron en niguno otro estado.
 

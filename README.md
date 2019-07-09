@@ -6,6 +6,7 @@
 Existen 3 tablas de mysql con la siguiente información:
 
 -**1. Order**: es una tabla con la información básica de la orden. La orden con id 567.
+
 | id  | order_number  | order_total  | user_email  | user_id  | created_at |
 |---|---|---|---|---|---|
 |  ... | ... | ... | ... | ...  | ...  |

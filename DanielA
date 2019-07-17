@@ -1,0 +1,10 @@
+1. Utilizando una sola query: Alguién quiere saber cuales son los sku de la orden con order_number igual a 19857758784 
+que se encuentran en el status actual de shipping_pending.
+
+SELECT order_number=1985778784 MachineItem.status='shipping_pending' OrderItem.sku FROM Order join MachineItem on Order.id=MachineItem.order_id join OrderItem on Order.id=OrderItem.order_id
+
+2. Utilizando 2 queries: Alguién quiere pasar los items que se encuentran actualmente en el estado shipping_pending de la 
+order_number igual a 19857758784 al status shipping_approved.
+
+SELECT order_number=1985778784 MachineItem.status='shipping_pending' FROM Order join MachineItem on Order.id=MachineItem.order_id
+UPDATE MachineItem SET status='shipping_approved' WHERE status='shipping_pending AND Order.id=MachineItem.order_id
